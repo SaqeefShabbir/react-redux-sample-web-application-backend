@@ -1,0 +1,1 @@
+INSERT INTO item(id, title, price) VALUES(1, 'Fries', 2.95), (2, 'Burger', 4.95), (3, 'Pizza', 4.75), (4, 'Sandwich', 3.95), (5, 'Noodles', 6.50), (6, 'Pepsi', 3.45), (7, 'Milk Shake', 4.25), (8, 'Donut', 5.25);
