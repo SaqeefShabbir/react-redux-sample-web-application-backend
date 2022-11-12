@@ -11,6 +11,7 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/api/**").allowedOrigins("http://localhost:3000");
+        //registry.addMapping("/api/**").allowedOrigins("http://localhost:3000");
+        registry.addMapping("/api/**").allowedOrigins("https://mywebapp00002.azurewebsites.net");
     }
 }
